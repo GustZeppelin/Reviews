@@ -4,14 +4,28 @@ product = document.querySelector("h2");
 review = document.querySelector("p");
 prev = document.querySelector(".prev");
 next = document.querySelector(".next");
-counter = 0;
+const counter = 0;
 
 objReviews = [
-    {image: "pessoa_1", name:"Joana", product:"pintão", client_review:"pintão gostoso"},
-    {image: "pessoa_2", name:"Mary", product:"pintão", client_review:"pintão gostoso"},
-    {image: "pessoa_3", name:"Will", product:"pintão", client_review:"pintão gostoso"}
+    {image: "pessoa_1", name:"Joana", product:"Hair Cream", client_review:"1"},
+    {image: "pessoa_2", name:"Mary", product:"Body Moisturizer", client_review:"2"},
+    {image: "pessoa_3", name:"Will", product:"Perfume", client_review:"3"}
 ]
 
+clientName.innerText = objReviews[counter]["name"]
+product.innerText = objReviews[counter]["product"]
+review.innerText = objReviews[counter]["client_review"]
 
 
-console.log(objReviews[1])
+
+// next.addEventListener("click", () => {
+//     if (counter = 2) {
+//         console.log(counter);
+//         counter = 0;
+//     } else {
+//         counter += 1;
+//     }
+
+//     }) 
+
+    

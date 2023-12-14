@@ -4,8 +4,12 @@
     padding: 0; */
 }
 
+body {
+    background-color: #222831;
+}
+
 .container {
-    border: 1px solid red;
+    background-color: #393E46;
     width: 500px;
     position: absolute;
     top: 50%;
@@ -30,6 +34,11 @@
 .client-name {
     font-family: 'Alegreya Sans SC', sans-serif;
     font-size: 16px;
+    color: #EEEEEE;
+}
+
+.client-name h2 {
+    color: #00ADB5;
 }
 
 .review {
@@ -38,5 +47,6 @@
 }
 
 .buttons {
+    color: #00ADB5;
     margin-bottom: 20px;
 }
